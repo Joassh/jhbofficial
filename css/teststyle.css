@@ -1,0 +1,27 @@
+.clouds {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+
+.firstCloud {
+  position: absolute;
+  transform: translateX(-30vw);
+  top: 150px;
+  animation: move 10s linear 1s infinite;
+}
+.firstCloud:hover{
+  animation-play-state: paused;
+}
+
+
+
+@-webkit-keyframes move {
+  from {
+    transform: translateX(-30vw);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}

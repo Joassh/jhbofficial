@@ -1,0 +1,20 @@
+html body{
+  font-family: 'Kreon', serif;
+  overflow-x: hidden;
+
+}
+.heading{
+  text-align: center;
+}
+
+
+.fa-star{
+  color: grey;
+}
+
+.checked{
+  color:black;
+}
+.achecked{
+  color:black;
+}

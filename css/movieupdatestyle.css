@@ -1,0 +1,17 @@
+body{
+  background-color: #F2DDC1;
+}
+.card a{
+  text-decoration: none;
+  color: black;
+}
+
+.card{
+  margin: 1.5% 1%;
+  border-radius: 1rem;
+  border-width: 0.5rem;
+  border-color: #7E370C;
+}
+.card-body{
+  background: #FBF3E4;
+}
